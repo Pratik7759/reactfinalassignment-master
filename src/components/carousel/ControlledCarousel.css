@@ -1,0 +1,29 @@
+
+.banner {
+  position: relative;
+}
+.heading {
+  position: absolute;
+  color: white;
+  top: 25%;
+  width: 60%;
+  padding-top: 50px;
+  display: block;
+  text-align: center;
+  margin-left:20%;
+}
+.btn{
+    margin-top:25px;
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+}
+.heading-para{
+    margin-top:20px
+}
+.banner img {
+  width: 100vw;
+  height: 80vh;
+}

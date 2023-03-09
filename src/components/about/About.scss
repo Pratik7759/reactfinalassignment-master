@@ -1,0 +1,75 @@
+//variables in sass
+$primary-color: gray;
+$margin-top: 25px;
+$display: flex;
+
+// @mixin heading($fontSize) {
+//     font-size: $fontSize;
+//     font-weight: bold;
+//     border-radius: 4px;
+//   }
+  
+//   .box { @include heading(10px); }
+
+.about-container {
+  .head {
+    border-bottom: 1px solid red;
+    width: 280px;
+    margin-top: $margin-top;
+    display: $display;
+    justify-content: center;
+    text-align: center;
+    margin-left: 45%;
+  }
+
+  .head-para {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color: $primary-color;
+    margin-top: $margin-top;
+  }
+
+  .about-para-img-box {
+    display: $display;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .about-para {
+      // 35
+      // operators in sass
+      width: 100/2 - 15%;
+      margin-left: 20%;
+
+      h2 {
+        margin-top: $margin-top;
+        margin-bottom: 20px;
+        color: black;
+      }
+      p {
+        color: $primary-color;
+      }
+    }
+
+    .about-image {
+      img {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+    }
+  }
+
+  .about-btn {
+    margin-top: $margin-top;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 48%;
+  }
+}
+
+
+
+  

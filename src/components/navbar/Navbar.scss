@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+// Example of nested SASS
+.navbar {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(230, 51, 19);
+  color: white;
+  align-items: center;
+  cursor: pointer;
+
+  .logo {
+    margin-left: 13rem;
+    font-size: 1.9rem;
+  }
+  .links {
+    display: flex;
+    margin-right: 13rem;
+    // text-decoration: none;
+
+    .link {
+      margin: 20px;
+      font-size: 1.3rem;
+      text-decoration: none;
+
+      &:hover{
+        color:black;
+      }
+    }
+  }
+}

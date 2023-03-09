@@ -1,0 +1,67 @@
+// .screenshot-head {
+//     border-bottom: 1px solid red;
+//     width: 170px;
+//     margin-top: 35px;
+//     display: flex;
+//     justify-content: center;
+//     text-align: center;
+//     margin-left: 46.1%;
+
+//   }
+//   .screnshot-para-img-box {
+//     display: flex;
+//     justify-content: space-around;
+//     margin-top: 30px;
+//   }
+//    .screenshot-btn {
+//       margin-top:25px;
+//       font-size: 17px;
+//       background-color: black;
+//       color: white;
+//       border-radius: 5px;
+//       padding: 6px;
+//       margin-left: 47.8%;
+//   }
+//   .screenshot-head-para{
+//     width: 60%;
+//     margin-left: 20%;
+//     text-align: center;
+//     color: gray;
+//     margin-top:20px;
+//   }
+
+.screenshot-container {
+  .screenshot-head {
+    border-bottom: 1px solid red;
+    width: 170px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 46.1%;
+  }
+
+  .screenshot-head-para {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+  }
+
+  .screenshot-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .screenshot-btn {
+    margin-top: 25px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 47.8%;
+  }
+}

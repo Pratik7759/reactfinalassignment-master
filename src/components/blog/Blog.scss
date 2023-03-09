@@ -1,0 +1,36 @@
+.blog-container{
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 200px;
+    gap: 50px;
+    width: 60%;
+    margin-left: 28%;
+    margin-top: 30px;
+  }
+  .blog-para {
+    width: 56%;
+  }
+  .our-blog-head {
+    border-bottom: 1px solid red;
+    width: 135px;
+    margin-left: 47.5%;
+    margin-top: 35px;
+  }
+
+  .blog-head-para{
+    p{
+      width:60%;
+      margin-left:20%;
+      text-align: center;
+      color:gray;
+      margin-top:25px;
+    }
+  }
+}
+
+
+
+
+ 
+
