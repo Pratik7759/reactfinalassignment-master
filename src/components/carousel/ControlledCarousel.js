@@ -1,6 +1,6 @@
 import React from "react";
 import "./ControlledCarousel.scss";
-import image from "../images/images.jpg";
+import image from "../images/image2.jpg";
 
 export default function ControlledCarousel() {
   return (
