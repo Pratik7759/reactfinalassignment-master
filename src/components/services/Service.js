@@ -1,7 +1,7 @@
 import React from "react";
 import "./Service.scss";
 import image1 from "../images/download.jpg";
-import image2 from "../images/images.jpg";
+import image2 from "../images/download.jpg";
 import image3 from "../images/download.jpg";
 import image4 from "../images/images.jpg";
 import image5 from "../images/download.jpg";

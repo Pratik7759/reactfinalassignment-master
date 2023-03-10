@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/images.jpg";
+import image from "../images/image3.jpg";
 import "./Blog.scss";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
