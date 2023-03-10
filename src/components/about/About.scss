@@ -12,14 +12,15 @@ $display: flex;
 //   .box { @include heading(10px); }
 
 .about-container {
+  margin-left: 20%;
   .head {
     border-bottom: 1px solid red;
-    width: 280px;
+    width: 380px;
     margin-top: $margin-top;
     display: $display;
     justify-content: center;
     text-align: center;
-    margin-left: 45%;
+    margin-left: 26%;
   }
 
   .head-para {
@@ -51,11 +52,12 @@ $display: flex;
       }
     }
 
-    .about-image {
-      img {
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-      }
+    img .about-image {
+      
+        // border-top-left-radius: 50px;
+        // border-bottom-left-radius: 50px;
+        border-radius: 10px;
+      
     }
   }
 
@@ -66,7 +68,7 @@ $display: flex;
     color: white;
     border-radius: 5px;
     padding: 6px;
-    margin-left: 48%;
+    margin-left: 35%;
   }
 }
 

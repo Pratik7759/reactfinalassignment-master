@@ -1,40 +1,20 @@
-
-
 .service-container {
-  background-color: rgb(189, 206, 188);
+  background-color: rgb(212, 222, 212);
+  margin-top: 50px;
 
   .service-head {
-    border-bottom: 1px solid red;
-    width: 120px;
-    margin-top: 35px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 48%;
+    width: 364px;
+    margin-left: 37%;
     color: red;
-
-    /* border-bottom: 1px solid red; */
+    margin-top: 35px;
+    border-bottom: 1px solid red;
   }
 
-  .service-head-para {
-    p{
-     
-      text-align: center;
-      color: gray;
-      width: 60%;
-      margin-top: 25px;
-      margin-left: 20%;
-    }
-   
-  }
-
-  .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
-    gap: 20px;
+  .service-para {
+    text-align: center;
+    color: gray;
     width: 60%;
-    margin-left: 23%;
-    margin-top: 30px;
+    margin-top: 25px;
+    margin-left: 20%;
   }
 }

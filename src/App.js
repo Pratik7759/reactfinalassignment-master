@@ -7,6 +7,7 @@ import Service from "./components/services/Service";
 import Blog from "./components/blog/Blog";
 import Form from "./components/form/Form";
 import Footer from "./components/footer/Footer";
+import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
